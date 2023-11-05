@@ -1,0 +1,28 @@
+.wrapper {
+    display: grid;
+    place-items: center;
+}
+
+.error {
+    border: 1px solid red;
+}
+
+.editor {
+    width: 80%;
+    font-family: Consolas, monaco, monospace;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.field {
+    display: flex;
+    gap: 5px;
+}
+.key {
+    /* float: inline-start */
+}
+
+.value {
+    display: inline-block;
+    overflow-y: auto;
+}
